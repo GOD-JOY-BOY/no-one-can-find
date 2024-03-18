@@ -6,40 +6,44 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
+  "repository": "https://github.com/GOD-JOY-BOY/File-Sharing-Bot",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "description": "6522931002:AAEb_gXiPO08Z3DcpSucy_SffyOrbvgDeCw",
+      "value": "6522931002:AAEb_gXiPO08Z3DcpSucy_SffyOrbvgDeCw"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "2144648658"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "26587053"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://Karan:<Master>@cluster0.gmoz6oa.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "mongodb"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "c242586a142d29c1548c0a850305b965"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "https://t.me/+ZK3PWMuPtaljNzdl"
     },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL 1":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "https://t.me/New_Hindi_Animes"
+    },
+     "FORCE_SUB_CHANNEL 1":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "https://t.me/New_English_Animes"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -51,13 +55,13 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "2144648658 5415119496 5094606253 816300798",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "False",
-      "required": false
+      "value": "true",
+      "required": true
     }
   },
   "buildpacks": [
